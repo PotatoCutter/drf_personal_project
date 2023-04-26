@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drf-personal"
+version = "0.1.0"
+description = ""
+authors = ["brighto <jychoi1996@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drf_personal"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
